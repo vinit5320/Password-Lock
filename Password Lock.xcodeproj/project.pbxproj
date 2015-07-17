@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150472EF1B59614500708E1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150472EE1B59614500708E1C /* AppDelegate.swift */; };
+		150472F11B59614500708E1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150472F01B59614500708E1C /* ViewController.swift */; };
+		150472F41B59614500708E1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150472F21B59614500708E1C /* Main.storyboard */; };
+		150472F61B59614500708E1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150472F51B59614500708E1C /* Images.xcassets */; };
+		150472F91B59614500708E1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150472F71B59614500708E1C /* LaunchScreen.xib */; };
+		150473051B59614500708E1C /* Password_LockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150473041B59614500708E1C /* Password_LockTests.swift */; };
+		150473171B59618000708E1C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150473161B59618000708E1C /* InterfaceController.swift */; };
+		150473191B59618000708E1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150473181B59618000708E1C /* Images.xcassets */; };
+		1504731D1B59618000708E1C /* Password Lock WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 1504731C1B59618000708E1C /* Password Lock WatchKit App.app */; };
+		150473271B59618000708E1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150473261B59618000708E1C /* Images.xcassets */; };
+		1504732A1B59618100708E1C /* Password Lock WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 150473121B59618000708E1C /* Password Lock WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		150473331B59620D00708E1C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150473321B59620D00708E1C /* Interface.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		150472FF1B59614500708E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150472E11B59614500708E1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150472E81B59614500708E1C;
+			remoteInfo = "Password Lock";
+		};
+		1504731E1B59618000708E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150472E11B59614500708E1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1504731B1B59618000708E1C;
+			remoteInfo = "Password Lock WatchKit App";
+		};
+		150473281B59618000708E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150472E11B59614500708E1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150473111B59618000708E1C;
+			remoteInfo = "Password Lock WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		150473311B59618100708E1C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1504732A1B59618100708E1C /* Password Lock WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		150472E91B59614500708E1C /* Password Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150472ED1B59614500708E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150472EE1B59614500708E1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		150472F01B59614500708E1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		150472F31B59614500708E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		150472F51B59614500708E1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		150472F81B59614500708E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		150472FE1B59614500708E1C /* Password LockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Password LockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150473031B59614500708E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150473041B59614500708E1C /* Password_LockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password_LockTests.swift; sourceTree = "<group>"; };
+		150473121B59618000708E1C /* Password Lock WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Password Lock WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150473151B59618000708E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150473161B59618000708E1C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		150473181B59618000708E1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1504731C1B59618000708E1C /* Password Lock WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Lock WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150473221B59618000708E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150473261B59618000708E1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		150473321B59620D00708E1C /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		150472E61B59614500708E1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150472FB1B59614500708E1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1504730F1B59618000708E1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		150472E01B59614500708E1C = {
+			isa = PBXGroup;
+			children = (
+				150472EB1B59614500708E1C /* Password Lock */,
+				150473011B59614500708E1C /* Password LockTests */,
+				150473131B59618000708E1C /* Password Lock WatchKit Extension */,
+				150473201B59618000708E1C /* Password Lock WatchKit App */,
+				150472EA1B59614500708E1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		150472EA1B59614500708E1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				150472E91B59614500708E1C /* Password Lock.app */,
+				150472FE1B59614500708E1C /* Password LockTests.xctest */,
+				150473121B59618000708E1C /* Password Lock WatchKit Extension.appex */,
+				1504731C1B59618000708E1C /* Password Lock WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		150472EB1B59614500708E1C /* Password Lock */ = {
+			isa = PBXGroup;
+			children = (
+				150472EE1B59614500708E1C /* AppDelegate.swift */,
+				150472F01B59614500708E1C /* ViewController.swift */,
+				150472F21B59614500708E1C /* Main.storyboard */,
+				150472F51B59614500708E1C /* Images.xcassets */,
+				150472F71B59614500708E1C /* LaunchScreen.xib */,
+				150472EC1B59614500708E1C /* Supporting Files */,
+			);
+			path = "Password Lock";
+			sourceTree = "<group>";
+		};
+		150472EC1B59614500708E1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				150472ED1B59614500708E1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		150473011B59614500708E1C /* Password LockTests */ = {
+			isa = PBXGroup;
+			children = (
+				150473041B59614500708E1C /* Password_LockTests.swift */,
+				150473021B59614500708E1C /* Supporting Files */,
+			);
+			path = "Password LockTests";
+			sourceTree = "<group>";
+		};
+		150473021B59614500708E1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				150473031B59614500708E1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		150473131B59618000708E1C /* Password Lock WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				150473161B59618000708E1C /* InterfaceController.swift */,
+				150473181B59618000708E1C /* Images.xcassets */,
+				150473141B59618000708E1C /* Supporting Files */,
+			);
+			path = "Password Lock WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		150473141B59618000708E1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				150473151B59618000708E1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		150473201B59618000708E1C /* Password Lock WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				150473321B59620D00708E1C /* Interface.storyboard */,
+				150473261B59618000708E1C /* Images.xcassets */,
+				150473211B59618000708E1C /* Supporting Files */,
+			);
+			path = "Password Lock WatchKit App";
+			sourceTree = "<group>";
+		};
+		150473211B59618000708E1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				150473221B59618000708E1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		150472E81B59614500708E1C /* Password Lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150473081B59614500708E1C /* Build configuration list for PBXNativeTarget "Password Lock" */;
+			buildPhases = (
+				150472E51B59614500708E1C /* Sources */,
+				150472E61B59614500708E1C /* Frameworks */,
+				150472E71B59614500708E1C /* Resources */,
+				150473311B59618100708E1C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				150473291B59618000708E1C /* PBXTargetDependency */,
+			);
+			name = "Password Lock";
+			productName = "Password Lock";
+			productReference = 150472E91B59614500708E1C /* Password Lock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		150472FD1B59614500708E1C /* Password LockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1504730B1B59614500708E1C /* Build configuration list for PBXNativeTarget "Password LockTests" */;
+			buildPhases = (
+				150472FA1B59614500708E1C /* Sources */,
+				150472FB1B59614500708E1C /* Frameworks */,
+				150472FC1B59614500708E1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				150473001B59614500708E1C /* PBXTargetDependency */,
+			);
+			name = "Password LockTests";
+			productName = "Password LockTests";
+			productReference = 150472FE1B59614500708E1C /* Password LockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		150473111B59618000708E1C /* Password Lock WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1504732E1B59618100708E1C /* Build configuration list for PBXNativeTarget "Password Lock WatchKit Extension" */;
+			buildPhases = (
+				1504730E1B59618000708E1C /* Sources */,
+				1504730F1B59618000708E1C /* Frameworks */,
+				150473101B59618000708E1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1504731F1B59618000708E1C /* PBXTargetDependency */,
+			);
+			name = "Password Lock WatchKit Extension";
+			productName = "Password Lock WatchKit Extension";
+			productReference = 150473121B59618000708E1C /* Password Lock WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		1504731B1B59618000708E1C /* Password Lock WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1504732B1B59618100708E1C /* Build configuration list for PBXNativeTarget "Password Lock WatchKit App" */;
+			buildPhases = (
+				1504731A1B59618000708E1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Password Lock WatchKit App";
+			productName = "Password Lock WatchKit App";
+			productReference = 1504731C1B59618000708E1C /* Password Lock WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		150472E11B59614500708E1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ViNiT;
+				TargetAttributes = {
+					150472E81B59614500708E1C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					150472FD1B59614500708E1C = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 150472E81B59614500708E1C;
+					};
+					150473111B59618000708E1C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					1504731B1B59618000708E1C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 150472E41B59614500708E1C /* Build configuration list for PBXProject "Password Lock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 150472E01B59614500708E1C;
+			productRefGroup = 150472EA1B59614500708E1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				150472E81B59614500708E1C /* Password Lock */,
+				150472FD1B59614500708E1C /* Password LockTests */,
+				150473111B59618000708E1C /* Password Lock WatchKit Extension */,
+				1504731B1B59618000708E1C /* Password Lock WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		150472E71B59614500708E1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150472F41B59614500708E1C /* Main.storyboard in Resources */,
+				150472F91B59614500708E1C /* LaunchScreen.xib in Resources */,
+				150472F61B59614500708E1C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150472FC1B59614500708E1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150473101B59618000708E1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150473191B59618000708E1C /* Images.xcassets in Resources */,
+				1504731D1B59618000708E1C /* Password Lock WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1504731A1B59618000708E1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150473331B59620D00708E1C /* Interface.storyboard in Resources */,
+				150473271B59618000708E1C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150472E51B59614500708E1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150472F11B59614500708E1C /* ViewController.swift in Sources */,
+				150472EF1B59614500708E1C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150472FA1B59614500708E1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150473051B59614500708E1C /* Password_LockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1504730E1B59618000708E1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150473171B59618000708E1C /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		150473001B59614500708E1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150472E81B59614500708E1C /* Password Lock */;
+			targetProxy = 150472FF1B59614500708E1C /* PBXContainerItemProxy */;
+		};
+		1504731F1B59618000708E1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1504731B1B59618000708E1C /* Password Lock WatchKit App */;
+			targetProxy = 1504731E1B59618000708E1C /* PBXContainerItemProxy */;
+		};
+		150473291B59618000708E1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150473111B59618000708E1C /* Password Lock WatchKit Extension */;
+			targetProxy = 150473281B59618000708E1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		150472F21B59614500708E1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150472F31B59614500708E1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		150472F71B59614500708E1C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150472F81B59614500708E1C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		150473061B59614500708E1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		150473071B59614500708E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		150473091B59614500708E1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Password Lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1504730A1B59614500708E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Password Lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1504730C1B59614500708E1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Password LockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Password Lock.app/Password Lock";
+			};
+			name = Debug;
+		};
+		1504730D1B59614500708E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Password LockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Password Lock.app/Password Lock";
+			};
+			name = Release;
+		};
+		1504732C1B59618100708E1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Password_Lock_WatchKit_Extension;
+				INFOPLIST_FILE = "Password Lock WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		1504732D1B59618100708E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Password_Lock_WatchKit_Extension;
+				INFOPLIST_FILE = "Password Lock WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		1504732F1B59618100708E1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Password Lock WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		150473301B59618100708E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Password Lock WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150472E41B59614500708E1C /* Build configuration list for PBXProject "Password Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150473061B59614500708E1C /* Debug */,
+				150473071B59614500708E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150473081B59614500708E1C /* Build configuration list for PBXNativeTarget "Password Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150473091B59614500708E1C /* Debug */,
+				1504730A1B59614500708E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1504730B1B59614500708E1C /* Build configuration list for PBXNativeTarget "Password LockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1504730C1B59614500708E1C /* Debug */,
+				1504730D1B59614500708E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1504732B1B59618100708E1C /* Build configuration list for PBXNativeTarget "Password Lock WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1504732C1B59618100708E1C /* Debug */,
+				1504732D1B59618100708E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1504732E1B59618100708E1C /* Build configuration list for PBXNativeTarget "Password Lock WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1504732F1B59618100708E1C /* Debug */,
+				150473301B59618100708E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 150472E11B59614500708E1C /* Project object */;
+}

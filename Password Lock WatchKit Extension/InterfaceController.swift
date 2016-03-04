@@ -73,13 +73,13 @@ class InterfaceController: WKInterfaceController {
     
     private func addKeyEntry(entry: Int) {
         keyEntrySequence.append(entry)
-        println("PasswordSequence: \(keyEntrySequence)")
+        print("PasswordSequence: \(keyEntrySequence)")
         updateEntryIndicators()
     }
     
     private func removeKeyEntry() {
         keyEntrySequence.removeLast()
-        println("PasswordSequence: \(keyEntrySequence)")
+        print("PasswordSequence: \(keyEntrySequence)")
         updateEntryIndicators()
     }
     
@@ -125,7 +125,7 @@ class InterfaceController: WKInterfaceController {
         contentGroup?.setHidden(false)
         
         setTitle("Content")
-        println("Unlocked")
+        print("Unlocked")
     }
     
     private func lock() {
@@ -134,7 +134,7 @@ class InterfaceController: WKInterfaceController {
         contentGroup?.setHidden(true)
         
         setTitle("Passcode")
-        println("Locked")
+        print("Locked")
         
         // Reset the entry state
         keyEntrySequence = []
